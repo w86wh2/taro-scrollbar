@@ -1,0 +1,1 @@
+export {default as TaroScrollbar} from './components/taro-scrollbar';

@@ -1,0 +1,23 @@
+
+.dragUpdataPage{
+	height: 100%;
+	width: 100%; 
+	position: relative;
+	overflow: hidden;
+	.downDragBox{
+		width: 100%;
+		top: 0px;
+		display: flex;
+		overflow: hidden;
+		justify-content: center;
+		align-items: center;
+		font-size: 30px;
+		position: absolute;
+	}
+	.downText{margin-left: 20px;}
+	.home__wrap{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+}
