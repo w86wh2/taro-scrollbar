@@ -1,7 +1,7 @@
 {
   "name": "taro-scrollbar",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
+  "private": false,
   "description": "",
   "main": "dist/index.js",
   "templateInfo": {
@@ -25,7 +25,8 @@
     "dev:h5": "npm run build:h5 -- --watch",
     "dev:rn": "npm run build:rn -- --watch",
     "dev:qq": "npm run build:qq -- --watch",
-    "dev:quickapp": "npm run build:quickapp -- --watch"
+    "dev:quickapp": "npm run build:quickapp -- --watch",
+    "build:ui": "TARO_BUILD_TYPE=ui taro build --ui"
   },
   "author": "wangfeng",
   "license": "MIT",

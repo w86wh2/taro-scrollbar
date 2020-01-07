@@ -42,4 +42,4 @@ TaroScrollbar 基于taro的下拉刷新，上拉加载组件
 
 > ### 效果展示
 
-<img src="./doc/example.gif" width="375"/>
+<img src="http://img.encore.work/common/example.gif" width="375"/>

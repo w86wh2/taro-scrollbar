@@ -27,10 +27,12 @@ class App extends Component {
       navigationBarBackgroundColor: '#fff',
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
-    }
+    },
   }
 
-  componentDidMount () {}
+  componentDidMount () {
+    console.log(Taro.showModal)
+  }
 
   componentDidShow () {}
 
